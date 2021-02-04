@@ -2,7 +2,7 @@ import cv2
 #opencv documentation
 #https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html?highlight=detectmultiscale
 
-video = cv2.VideoCapture("Car_Clip.mp4")
+video = cv2.VideoCapture("Car_Clip.mp4") #Name of the clip 
 Car_Classifier = "cars.xml" #Car classifier xml file-this xml will check our image and check it against the data and if it passed then it will be classed as a car
 CheckCar = cv2.CascadeClassifier(Car_Classifier)
 
